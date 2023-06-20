@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+  <test thread-count="5" name="Smoke Test">
+    <classes>
+      <class name="org.TestScripts.SmokeTestCase"/>
+      <class name="org.TestScripts.SmokeTestCase2"/>
+    </classes>
+  </test> <!-- Smoke Test -->
+</suite> <!-- Smoke Suite -->
